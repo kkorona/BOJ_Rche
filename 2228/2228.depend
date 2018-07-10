@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1502262108 source:c:\users\illak\documents\code - problem solving\acmicpcnet\2228\main.cpp
+	<cstdio>
+	<algorithm>
+	<vector>
+	<limits>
+

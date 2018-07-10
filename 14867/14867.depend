@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1519366049 source:d:\문서 백업\code - problem solving\acmicpcnet\14867\main.cpp
+	<iostream>
+	<vector>
+	<queue>
+

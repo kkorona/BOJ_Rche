@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1484896162 source:c:\users\illak\documents\acmicpcnet\2585\main.cpp
+	<cstdio>
+	<cstring>
+	<queue>
+	<algorithm>
+	<cmath>
+

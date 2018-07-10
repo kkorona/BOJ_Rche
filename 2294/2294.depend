@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1495803522 source:c:\users\illak\documents\acmicpcnet\2294\main.cpp
+	<cstdio>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<time.h>
+
+1496387329 source:c:\users\illak\documents\code - problem solving\acmicpcnet\2294\main.cpp
+	<cstdio>
+	<algorithm>
+

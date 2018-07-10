@@ -1,0 +1,7 @@
+﻿  소스.cpp
+c:\users\illak\documents\code - problem solving\acmicpcnet\2146_vs_20170816\2146_vs_20170816\소스.cpp(44): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+c:\users\illak\documents\code - problem solving\acmicpcnet\2146_vs_20170816\2146_vs_20170816\소스.cpp(48): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+  2146_VS_20170816.vcxproj -> C:\Users\illak\Documents\Code - Problem Solving\acmicpcnet\2146_VS_20170816\Debug\2146_VS_20170816.exe
+  2146_VS_20170816.vcxproj -> C:\Users\illak\Documents\Code - Problem Solving\acmicpcnet\2146_VS_20170816\Debug\2146_VS_20170816.pdb (Full PDB)

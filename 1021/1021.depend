@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1494918048 source:c:\users\illak\documents\acmicpcnet\1021\main.cpp
+	<cstdio>
+	<algorithm>
+	<cstdlib>
+	<set>
+	<queue>
+	<cmath>
+	<iterator>
+
+1509695440 source:c:\users\illak\documents\code - problem solving\acmicpcnet\1021\main.cpp
+	<cstdio>
+	<iterator>
+	<list>
+

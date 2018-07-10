@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1519362375 source:d:\문서 백업\code - problem solving\acmicpcnet\14864\main.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+

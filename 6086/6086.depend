@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1522645920 source:d:\문서 백업\code - problem solving\acmicpcnet\6086\main.cpp
+	<bits/stdc++.h>
+
+1530516426 source:d:\my works - problem solving\acmicpcnet\6086\main.cpp
+	<cstdio>
+	<algorithm>
+	<string>
+	<queue>
+	<cstring>
+	<vector>
+	<iostream>
+

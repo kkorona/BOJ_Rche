@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1483948684 source:c:\users\illak\documents\acmicpcnet\3758\main.cpp
+	<cstdio>
+	<memory.h>
+
+1506672950 source:c:\users\illak\documents\code - problem solving\acmicpcnet\3758\main.cpp
+	<cstdio>
+	<vector>
+	<algorithm>
+
