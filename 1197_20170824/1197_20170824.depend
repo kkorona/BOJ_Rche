@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1503550356 source:c:\users\illak\documents\code - problem solving\sundaycoding\beta 20170823\1197_20170824\main.cpp
+	<cstdio>
+	<vector>
+	<algorithm>
+

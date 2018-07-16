@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1503301034 source:c:\users\illak\documents\code - problem solving\acmicpcnet\2606_bfs\main.cpp
+	<cstdio>
+	<queue>
+

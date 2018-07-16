@@ -1,0 +1,5 @@
+﻿  소스.cpp
+c:\users\illak\documents\code - problem solving\acmicpcnet\2234\2234\소스.cpp(66): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+c:\users\illak\documents\code - problem solving\acmicpcnet\2234\2234\소스.cpp(66): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+  2234.vcxproj -> C:\Users\illak\Documents\Code - Problem Solving\acmicpcnet\2234\Debug\2234.exe
+  2234.vcxproj -> C:\Users\illak\Documents\Code - Problem Solving\acmicpcnet\2234\Debug\2234.pdb (Full PDB)

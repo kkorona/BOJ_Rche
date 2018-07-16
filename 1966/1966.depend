@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1483941820 source:c:\users\illak\documents\acmicpcnet\1966\main.cpp
+	<cstdio>
+	<vector>
+
+1514890417 source:d:\문서 백업\code - problem solving\acmicpcnet\1966\main.cpp
+	<cstdio>
+	<queue>
+	<vector>
+	<algorithm>
+

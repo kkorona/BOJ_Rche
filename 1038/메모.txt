@@ -1,0 +1,13 @@
+T[M] : 
+N-1번 앱까지를 비활성화 해서 M 바이트를 얻을 때 최소 비용
+N번 앱을 끈다고 치자.
+T[N][M] = min(T[N-1][M-Memory[N]]+costs[N],T[N-1][M])
+
+메모리값이 너무 크대용..
+
+
+cost를 잡는다고 치면
+
+T[i] : cost i 로 얻을 수 있는 최대 메모리 비용
+
+T[i] = max(T[i-costs[k]]+apps[k],T[i]);

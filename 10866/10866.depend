@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1492167702 source:c:\users\illak\documents\acmicpcnet\10866\main.cpp
+	<iostream>
+	<deque>
+	<string>
+
