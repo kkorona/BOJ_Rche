@@ -53,14 +53,18 @@ int main()
                 V++;
                 break;
             case 2:
+                V+=2;
                 break;
             case 3:
+                V+=2;
+                Eb++;
                 break;
             case 4:
                 Ef++;
-                paren.push('(');
                 break;
             case 5:
+                paren.push('(');
+                Ef++;
                 if(paren.empty() || paren.top() != '(') {
                     flag = 0;
                 }
@@ -100,7 +104,6 @@ int main()
 
 
 /*
-
 (0)start : S,B,L;
 (1)S : ,, ]
 (2)B : (, [
@@ -111,5 +114,4 @@ int main()
 (7)[ : S,B,L
 (8)] : ,
 (9)dead
-
 */
