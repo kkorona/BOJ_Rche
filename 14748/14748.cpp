@@ -31,6 +31,7 @@ int main()
     state[')']=6;
     state['[']=7;
     state[']']=8;
+    state[' ']=-1;
 
     int W;
     int Ef=0,Eb=0,V=0;
@@ -47,6 +48,8 @@ int main()
             flag = 1;
             break;
         }
+        else if(dest == -1) continue;
+        cout << curState << " ";
         if(adjMatrix[curState][dest]) {
             switch(dest) {
             case 1:
@@ -54,9 +57,11 @@ int main()
                 break;
             case 2:
                 V+=2;
+                Ef++;
                 break;
             case 3:
                 V+=2;
+                Ef++;
                 Eb++;
                 break;
             case 4:
@@ -64,15 +69,16 @@ int main()
                 break;
             case 5:
                 paren.push('(');
-                Ef++;
                 if(paren.empty() || paren.top() != '(') {
                     flag = 0;
                 }
                 else {
-
+                    paren.pop();
+                    Ef++;
                 }
                 break;
             case 6:
+                Ef++;
                 break;
             case 7:
                 Ef++;
@@ -82,17 +88,20 @@ int main()
                     flag = 0;
                 }
                 else {
-
+                    paren.pop();
+                    Ef++;
                 }
                 break;
             }
         }
+        curState = dest;
     }
 
-    flag = !paren.empty();
+    flag = paren.empty();
 
+    cout << '\n';
     if(flag) {
-
+        cout << Ef+Eb*W-V;
     }
     else {
         cout << -1;
