@@ -38,7 +38,9 @@ int main()
     int flag = 1;
     string input;
     cin >> W;
-    cin >> input;
+    char c;
+    cin >> c;
+    getline(cin,input);
 
     int curState = 0;
     for(char c : input) {
@@ -46,10 +48,11 @@ int main()
         int dest = state[c];
         if(dest == 0) {
             flag = 1;
+            cout << "\nDestination is wrong\n";
             break;
         }
         else if(dest == -1) continue;
-        cout << curState << " ";
+        cout << curState << "/" << dest<< " ";
         if(adjMatrix[curState][dest]) {
             switch(dest) {
             case 1:
@@ -57,11 +60,11 @@ int main()
                 break;
             case 2:
                 V+=2;
-                Ef++;
+                Ef+=2;
                 break;
             case 3:
                 V+=2;
-                Ef++;
+                Ef+=2;
                 Eb++;
                 break;
             case 4:
@@ -71,6 +74,7 @@ int main()
                 paren.push('(');
                 if(paren.empty() || paren.top() != '(') {
                     flag = 0;
+                    cout << "\nParentheses Unmatched\n";
                 }
                 else {
                     paren.pop();
@@ -86,6 +90,7 @@ int main()
             case 8:
                 if(paren.empty() || paren.top() != '[') {
                     flag = 0;
+                    cout << "\nParentheses Unmatched\n";
                 }
                 else {
                     paren.pop();
@@ -93,12 +98,15 @@ int main()
                 }
                 break;
             }
+            curState = dest;
         }
-        curState = dest;
+        else {
+            flag = 0;
+            cout << "\nEndorsement error.\n";
+        }
     }
 
-    flag = paren.empty();
-
+    flag = flag && paren.empty() && (curState == 1 || curState == 6 || curState == 8);
     cout << '\n';
     if(flag) {
         cout << Ef+Eb*W-V;
